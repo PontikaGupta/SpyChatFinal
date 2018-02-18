@@ -237,7 +237,7 @@ def chat_history():
 
         else:
              print  (colored("Message Recieved : "+str(chat.time.strftime("%d %B %Y %A %H : %M")),"blue")),
-             print  (colored("Reciever Name : "+str(friends[friend_choice].name),"black")),
+             print  (colored("Reciever Name : "+str(friends[friend_choice].name),"red")),
              print  (colored("Message : "+str(chat.message),"black"))
 
 #-----------------------------------------------------------------------------------------------------------------------#
