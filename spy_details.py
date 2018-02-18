@@ -34,4 +34,3 @@ class ChatMessage:
     self.sent_by_me = sent_by_me
 
 
-chats=[]
